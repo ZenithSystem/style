@@ -1,63 +1,94 @@
-
-
-
-body
-{
-    background-color: #A74482;
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+    margin: 20px;
 }
 
-.bangers-regular {
-  font-family: "Bangers", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
+h1 {
+    color: darkblue;
+    text-align: center;
 }
 
-.title_style
-{
-    font-family: "Bangers", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
+h2 {
+    color: #222222;
 }
 
-
-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #555555;
 }
 
-header nav ul
-{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    margin: 0;
+nav ul {
+    list-style-type: none;
     padding: 0;
-    font-family: "Bangers", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
+    background-color: #333333;
+    text-align: center;
 }
 
-header nav a
-{
+.nav_style {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
-    color: inherit;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555555;
+}
+
+nav a.active {
+    background-color: blue;
 }
 
 
+.ticket-card {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
 
+.highlight {
+    background-color: transparent;
+    border: none;
+}
 
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
 
+.button_inf {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-.button_inf
-{
-    height: 1cm;
-    width: 5cm;
+.button_inf:hover {
+    background-color: darkblue;
+}
 
+.images img {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #333;
+}
 
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 14px;
 }
